@@ -36,6 +36,9 @@ namespace GreeterApp
                         var buffer = System.Text.Encoding.UTF8.GetBytes(message);
                         output.Write(buffer, 0, buffer.Length);
                     }
+                    
+                    Console.WriteLine($"Response:  {message}");
+
                 }
                 else
                 {
